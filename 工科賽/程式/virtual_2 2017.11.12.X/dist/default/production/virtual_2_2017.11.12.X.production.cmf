@@ -1,0 +1,1011 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+end_init CODE 0 18 18 4 1
+reset_vec CODE 0 0 0 4 1
+idloc IDLOC 0 200000 200000 8 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production\virtual_2_2017.11.12.X.production.obj
+intcode CODE 0 8 8 10 1
+text20 CODE 0 1D9C 1D9C E8 1
+intcode_body CODE 0 2086 2086 80 1
+text18 CODE 0 1CA0 1CA0 FC 1
+text17 CODE 0 1E84 1E84 DC 1
+text16 CODE 0 224A 224A 56 1
+text15 CODE 0 2424 2424 1E 1
+text14 CODE 0 2004 2004 82 1
+text13 CODE 0 23DC 23DC 26 1
+text12 CODE 0 1AA0 1AA0 200 1
+text11 CODE 0 2348 2348 52 1
+text10 CODE 0 239A 239A 42 1
+text9 CODE 0 2106 2106 72 1
+text8 CODE 0 2472 2472 A 1
+text7 CODE 0 2402 2402 22 1
+text6 CODE 0 2462 2462 10 1
+text5 CODE 0 2452 2452 10 1
+text4 CODE 0 1F60 1F60 A4 1
+text3 CODE 0 22F4 22F4 54 1
+text2 CODE 0 2178 2178 70 1
+text1 CODE 0 22A0 22A0 54 1
+text0 CODE 0 1C 1C 1A84 1
+cstackCOMRAM COMRAM 1 1 1 31 1
+cstackBANK0 BANK0 1 60 60 14 1
+dataBANK0 BANK0 1 86 86 10 1
+bssBANK0 BANK0 1 74 74 12 1
+dataCOMRAM COMRAM 1 46 46 6 1
+bssCOMRAM COMRAM 1 32 32 E 1
+cinit CODE 0 21E8 21E8 62 1
+nvCOMRAM COMRAM 1 40 40 6 1
+idataBANK0 CODE 0 2442 2442 10 1
+idataCOMRAM CODE 0 247C 247C 6 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 000096-0000FF 1
+BANK1 000100-0001FF 1
+BANK2 000200-0002FF 1
+BANK3 000300-0003FF 1
+BANK4 000400-0004FF 1
+BANK5 000500-0005FF 1
+BANK6 000600-0006FF 1
+BANK7 000700-0007FF 1
+BIGRAM 00004C-00005F 1
+BIGRAM 000096-0007FF 1
+CODE 000004-000007 1
+CODE 002482-007FFF 1
+COMRAM 00004C-00005F 1
+CONST 000004-000007 1
+CONST 002482-007FFF 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 002482-007FFF 1
+RAM 000096-0007FF 1
+SFR 000F60-000FFF 1
+SMALLCONST 002482-007FFF 1
+STACK 000096-0007FF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\virtual_2_2017.11.12.X.production.obj
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":42 8 intcode CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":37 8 intcode CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":194 1C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":196 1C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":197 20 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":198 24 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":199 28 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":200 2C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":202 2E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":204 32 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":205 36 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":206 3A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":208 3E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":209 40 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":210 42 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":211 44 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":212 46 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":213 48 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":215 4A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":221 96 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":222 AE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":223 D2 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":224 E2 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":225 19A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":226 1DA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":229 1EA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":230 202 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":231 226 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":232 236 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":233 2EE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":234 32E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":237 33E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":238 352 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":239 372 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":240 380 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":241 38E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":242 3AE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":243 3BC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":244 3F4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":245 450 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":246 4AC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":247 4F0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":248 564 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":251 574 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":252 57A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":253 588 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":254 5A8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":255 5B6 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":256 5C4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":257 5E4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":258 5F2 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":259 62A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":260 70C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":261 7EE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":265 836 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":266 84A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":268 84E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":269 85A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":271 85E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":272 86A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":274 86E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":275 87A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":277 87E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":278 88A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":283 89E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":285 8AE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":286 8D0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":287 8E4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":288 8F0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":290 940 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":291 954 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":292 960 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":296 964 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":297 978 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":299 97C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":300 988 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":302 98C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":303 998 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":305 99C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":306 9A8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":308 9AC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":309 9B8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":314 9CC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":316 9DC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":317 9FE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":318 A12 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":319 A1E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":321 A6E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":322 A82 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":323 A8E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":326 A92 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":327 AB4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":329 AB8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":330 AC4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":332 AC8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":333 AD4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":335 AD8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":336 AE4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":338 AE8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":339 AFC text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":344 B10 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":346 B20 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":347 B42 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":348 B56 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":349 B62 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":351 BB2 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":353 BC2 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":354 BE4 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":355 BF8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":356 C04 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":358 C54 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":359 C68 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":360 C74 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":363 C78 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":364 C9A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":366 C9E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":367 CAA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":369 CAE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":370 CBA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":372 CBE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":373 CCA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":375 CCE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":376 CDA text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":377 D36 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":382 D42 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":384 D52 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":385 D7A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":386 DE8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":387 E80 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":388 E8C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":390 EC6 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":391 F34 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":395 FCE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":397 FDE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":398 1006 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":399 1074 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":400 110C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":401 1118 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":403 1152 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":404 11C0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":408 125A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":409 12C8 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":410 1360 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":411 136C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":414 136E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":416 1410 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":417 1410 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":418 1430 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":419 144C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":420 1480 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":421 14D0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":422 1520 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":423 1570 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":424 15C0 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":425 1610 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":426 1688 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":427 1702 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":430 1704 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":431 17A6 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":432 180E text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":433 188A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":434 18FE text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":436 190C text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":437 199A text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":218 1A28 text0 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":85 1AA0 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":88 1AA0 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":89 1AA4 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":90 1AD0 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":91 1AD4 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":93 1AD6 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":95 1B0C text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":96 1B42 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":97 1B4C text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":99 1B52 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":100 1B88 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":101 1B8E text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":103 1B92 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":104 1BC8 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":105 1BD2 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":107 1BD8 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":108 1BF8 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":109 1C18 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":110 1C20 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":111 1C3C text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":112 1C4E text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":113 1C66 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":114 1C96 text12 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":115 1C9E text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":8 1CA0 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":14 1CA0 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":15 1CA4 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":16 1CC0 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":17 1CD0 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":19 1CD4 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":20 1CF0 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":21 1D00 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":23 1D04 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":24 1D14 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":25 1D20 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":26 1D24 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":27 1D26 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":28 1D30 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":26 1D32 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":31 1D36 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":32 1D40 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":33 1D54 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":34 1D64 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":36 1D66 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":37 1D70 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":39 1D74 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":40 1D7A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":41 1D8A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c":42 1D9A text18 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":20 1D9C text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":22 1D9C text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":23 1DA0 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":24 1DA8 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":26 1DAA text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":27 1DC0 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":29 1DC6 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":30 1DDC text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":32 1DE2 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":33 1DFC text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":35 1E02 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":36 1E1C text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":24 1E26 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":39 1E50 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":40 1E56 text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":42 1E6E text20 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":44 1E82 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":8 1E84 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":13 1E84 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":14 1E88 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":15 1EA4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":16 1EB4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":18 1EB8 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":19 1ED4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":20 1EE4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":21 1EF0 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":22 1EF4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":23 1EF6 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":24 1F00 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":22 1F02 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":27 1F06 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":28 1F1A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":29 1F2A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":30 1F34 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":32 1F38 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":33 1F3E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":34 1F4E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c":35 1F5E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":8 1F60 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":14 1F60 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":15 1F64 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":16 1F78 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":17 1F80 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":19 1F84 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":20 1F98 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":21 1FA0 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":23 1FA4 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":24 1FAC text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":25 1FB4 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1FB8 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":27 1FBA text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":28 1FC0 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":26 1FC2 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":31 1FC6 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":32 1FCC text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":33 1FD8 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":34 1FE0 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":36 1FE2 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":37 1FE8 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":39 1FEC text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":40 1FF2 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":41 1FFA text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":42 2002 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":8 2004 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":14 2004 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":15 2014 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":16 2020 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":17 2024 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":18 2026 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":19 2030 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":17 2032 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":22 2036 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":23 2040 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":24 2054 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":25 2064 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":27 2066 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":28 2070 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":29 2074 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":30 2074 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c":31 2084 text14 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":37 2086 intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":39 20B4 intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":40 20B6 intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":41 20BA intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":42 20BE intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":43 20C2 intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":44 20CC intcode_body CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":106 2106 text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":108 2106 text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":109 2122 text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":110 213E text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":111 215A text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":112 2176 text9 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":51 2178 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":53 2178 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":54 2194 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":55 21B0 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":56 21CC text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":57 21CE text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":58 21D4 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":59 21DE text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":60 21E0 text2 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":61 21E6 text2 CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2056 21E8 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2058 21E8 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2061 21E8 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2148 21E8 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2149 21EC cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2150 21EE cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2151 21EE cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2152 21F0 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2153 21F2 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2156 21F4 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2157 21F8 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2158 21FA cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2159 21FA cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2160 21FC cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2161 21FE cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2166 2200 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2167 2202 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2168 2204 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2169 2206 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2170 2208 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2171 220A cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2172 220C cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2173 2210 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2174 2214 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2175 2214 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2176 2216 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2177 221A cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2178 221C cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2179 221E cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2183 2220 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2184 2222 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2185 2224 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2186 2226 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2187 2228 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2188 222A cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2189 222C cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2190 2230 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2191 2234 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2192 2234 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2193 2236 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2194 223A cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2195 223C cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2196 223E cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2202 2240 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2204 2240 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2205 2242 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2206 2244 cinit CODE
+"C:\Users\cdex1\AppData\Local\Temp\s9es.":2207 2246 cinit CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":5 224A text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":7 224C text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":8 2254 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":10 2256 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":11 2262 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":12 226E text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":8 227C text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":26 2290 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":28 2290 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":29 2292 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":30 2296 text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\adc.c":31 229E text16 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":63 22A0 text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":65 22A0 text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":66 22BC text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":67 22D8 text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":68 22DA text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":69 22E0 text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":70 22EA text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":71 22EC text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":72 22F2 text1 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":73 22F4 text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":74 22F4 text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":75 2310 text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":76 232C text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":77 232E text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":78 2334 text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":79 233E text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":80 2340 text3 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":81 2346 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":8 2348 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":14 2348 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":15 2350 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":16 2358 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":17 235C text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":18 235E text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":19 2364 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":17 2366 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":22 236A text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":23 2370 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":24 237C text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":25 2384 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":27 2386 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":28 238C text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":29 2390 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":30 2390 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":31 2398 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":8 239A text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":13 239A text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":14 23A2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":15 23A6 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":16 23A8 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":17 23AE text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":15 23B0 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":20 23B4 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":21 23C0 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":22 23C8 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":23 23CE text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":24 23D2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":25 23D2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c":26 23DA text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":15 23DC text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":37 23DC text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":38 23E8 text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":39 23F0 text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":52 23F8 text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":53 2400 text13 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":113 2402 text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":115 2402 text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":116 240A text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":117 2412 text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":118 241A text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":119 2422 text7 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":45 2424 text15 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":47 2424 text15 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":48 2432 text15 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":49 243E text15 CODE
+"D:\pic\virtual_2 2017.11.12.X\virtual_2.c":48 2440 text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d1ktcyx.c":8 2452 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d1ktcyx.c":10 2454 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d1ktcyx.c":11 2454 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d1ktcyx.c":12 245C text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d1ktcyx.c":13 2460 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d100tcyx.c":8 2462 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d100tcyx.c":10 2464 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d100tcyx.c":11 2464 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d100tcyx.c":12 246C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d100tcyx.c":13 2470 text6 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":102 2472 text8 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":104 2474 text8 CODE
+"D:\pic\virtual_2 2017.11.12.X\led7.c":105 247A text8 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___lwdiv@dividend 23 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv@counter 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lldiv@counter 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv@counter 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_a 3A 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_i 32 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwdiv@counter 27 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_HH 36 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_t2 80 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LL 38 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_GO 7E11 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_ff 74 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_DD1 46 0 COMRAM 1 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_DD2 48 0 COMRAM 1 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_DD3 92 0 BANK0 1 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_DD4 94 0 BANK0 1 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_RC1 7C11 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_RA3 7C03 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_t41 82 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_t42 3C 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_t43 84 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_r16 7C 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_PR2 FCB 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__S1 96 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production\virtual_2_2017.11.12.X.production.obj
+_led 86 0 BANK0 1 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___awdiv 2004 0 CODE 0 text4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_get 40 0 COMRAM 1 nvCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_dot 44 0 COMRAM 1 nvCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_r100 78 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of___almod 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_GIEH 7F97 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATD F8C 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_GIEL 7F96 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_IPEN 7E87 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+adc_get@n 14 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_led_dot 247C 0 CODE 0 text8 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_tick 3E 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_main 1C 0 CODE 0 text0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+_hisr 8 0 CODE 0 intcode dist/default/production\virtual_2_2017.11.12.X.production.obj
+_fn111 1AA0 0 CODE 0 text12 dist/default/production\virtual_2_2017.11.12.X.production.obj
+start 18 0 CODE 0 init C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+_LATB0 7C50 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATB1 7C51 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATC1 7C59 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATB2 7C52 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATC2 7C5A 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATB3 7C53 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATB4 7C54 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATB5 7C55 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_LATD7 7C67 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___aldiv 1D9C 0 CODE 0 text18 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_Delay100TCYx 2462 0 CODE 0 text6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR0H FD7 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR1H FCF 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR0L FD6 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR1L FCE 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISB F93 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISC F94 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISD F95 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_PORTB F81 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISE F96 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_T0CON FD5 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_T1CON FCD 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_T2CON FCA 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_ADRES FC3 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___almod 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@i 72 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_led_scan 1D9C 0 CODE 0 text20 dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___lwmod 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+led_scan@dd 3 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hrparam 0 0 ABS 0 rparam dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lrparam 0 0 ABS 0 rparam dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@y 68 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production\virtual_2_2017.11.12.X.production.obj
+_light 4A 0 COMRAM 1 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\virtual_2_2017.11.12.X.production.obj
+?_fn111 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_motor 22F4 0 CODE 0 text3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+?_adc_get 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISC1 7CA1 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISA3 7C93 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISC2 7CA2 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISB4 7C9C 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_ADCON2 FC0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TRISB5 7C9D 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR0IE 7F95 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR0IF 7F92 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___aldiv 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_delay_ms 2424 0 CODE 0 text15 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_CCPR1L FBE 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_CCPR2L FBB 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_hisr 2106 0 CODE 0 intcode_body dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___lldiv 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+led_dec@vh 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___awdiv 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___lwdiv 23 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+_TMR0IP 7F8A 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintcode 18 0 CODE 0 intcode dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@x1 6E 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pintcode 8 0 CODE 0 intcode dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@x2 70 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_motor1 2178 0 CODE 0 text2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_motor2 22A0 0 CODE 0 text1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pnvCOMRAM 40 0 COMRAM 1 nvCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+led_dec@vl 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_motor1 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+Delay100TCYx@unit 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_Delay1KTCYx 2462 0 CODE 0 text5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_leddec 2402 0 CODE 0 text7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_fn111 1CA0 0 CODE 0 text12 dist/default/production\virtual_2_2017.11.12.X.production.obj
+motor@x 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+stackhi 7FF 0 ABS 0 - C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___almod@sign 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_CPUDIV$OSC1_PLL2 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\virtual_2_2017.11.12.X.production.obj
+stacklo 96 0 ABS 0 - C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hinit 18 0 CODE 0 init dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Linit 18 0 CODE 0 init dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintcodelo 18 0 CODE 0 intcodelo dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\virtual_2_2017.11.12.X.production.obj
+___wmul 23DC 0 CODE 0 text13 dist/default/production\virtual_2_2017.11.12.X.production.obj
+led_dot@tp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_main 1AA0 0 CODE 0 text0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_adc_get 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production\virtual_2_2017.11.12.X.production.obj
+___wmul@multiplier 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_Delay1KTCYx 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pdataBANK0 86 0 BANK0 1 dataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___almod 1F60 0 CODE 0 text17 dist/default/production\virtual_2_2017.11.12.X.production.obj
+end_of_initialization 2240 0 CODE 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv@sign 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv@sign 17 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___wmul@multiplicand 14 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_Delay100TCYx 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_hisr 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+_CCP1CON FBD 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_CCP2CON FBA 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_led_scan 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hpowerup 18 0 CODE 0 powerup dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lpowerup 18 0 CODE 0 powerup dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext0 1C 0 CODE 0 text0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext1 22A0 0 CODE 0 text1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_led_scan 1E84 0 CODE 0 text20 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext2 2178 0 CODE 0 text2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext3 22F4 0 CODE 0 text3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext4 1F60 0 CODE 0 text4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext5 2452 0 CODE 0 text5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext6 2462 0 CODE 0 text6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext7 2402 0 CODE 0 text7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pbssCOMRAM 32 0 COMRAM 1 bssCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_leddec 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext8 2472 0 CODE 0 text8 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext9 2106 0 CODE 0 text9 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of__initialization 2240 0 CODE 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___lwdiv 239A 0 CODE 0 text11 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_led_dot 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+motor1@x 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+motor2@x 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@x1y 6A 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+main@x2y 6C 0 BANK0 1 cstackBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+_led_dec 2106 0 CODE 0 text9 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_motor 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production\virtual_2_2017.11.12.X.production.obj
+___almod 1E84 0 CODE 0 text17 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_fn111 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+int_func 2086 0 CODE 0 intcode_body dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___lldiv 2086 0 CODE 0 text14 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwmod 239A 0 CODE 0 text10 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hparam 0 0 ABS 0 rparam dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lparam 0 0 ABS 0 rparam dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lspace_0 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hspace_1 96 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lspace_1 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\virtual_2_2017.11.12.X.production.obj
+_adc_get 224A 0 CODE 0 text16 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\virtual_2_2017.11.12.X.production.obj
+delay_ms@ms 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hspace_2 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lspace_2 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\virtual_2_2017.11.12.X.production.obj
+?___wmul 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_delay_ms 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+_led_dot 2472 0 CODE 0 text8 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv 1CA0 0 CODE 0 text18 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lldiv 2004 0 CODE 0 text14 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pcinit 21E8 0 CODE 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv 1F60 0 CODE 0 text4 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+___lwdiv 2348 0 CODE 0 text11 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hconst 0 0 CODE 0 const dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lconst 0 0 CODE 0 const dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_motor1 21E8 0 CODE 0 text2 dist/default/production\virtual_2_2017.11.12.X.production.obj
+leddec@vh1 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_led_dec 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pidataBANK0 2442 0 CODE 0 idataBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+leddec@vh2 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+leddec@vl1 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+leddec@vl2 30 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+_Delay1KTCYx 2452 0 CODE 0 text5 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pbssBANK0 74 0 BANK0 1 bssBANK0 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext20 0 0 ABS 0 text20 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext10 239A 0 CODE 0 text10 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext20 1D9C 0 CODE 0 text20 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext11 2348 0 CODE 0 text11 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext12 1AA0 0 CODE 0 text12 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_Delay100TCYx 2472 0 CODE 0 text6 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext13 23DC 0 CODE 0 text13 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext14 2004 0 CODE 0 text14 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext15 2424 0 CODE 0 text15 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__end_of_leddec 2424 0 CODE 0 text7 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext16 224A 0 CODE 0 text16 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___almod@divisor 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext17 1E84 0 CODE 0 text17 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Htext18 0 0 ABS 0 text18 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___lwmod 23DC 0 CODE 0 text10 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwmod@divisor 14 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__ptext18 1CA0 0 CODE 0 text18 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__Hend_init 1C 0 CODE 0 end_init dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lend_init 18 0 CODE 0 end_init dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_motor 2348 0 CODE 0 text3 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv@divisor 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lldiv@divisor 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv@divisor 14 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwdiv@divisor 25 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pidataCOMRAM 247C 0 CODE 0 idataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_delay_ms 2442 0 CODE 0 text15 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\virtual_2_2017.11.12.X.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__size_of___aldiv 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\virtual_2_2017.11.12.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pintcode_body 2086 0 CODE 0 intcode_body dist/default/production\virtual_2_2017.11.12.X.production.obj
+intlevel0 0 0 CODE 0 text C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+intlevel1 0 0 CODE 0 text C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+intlevel2 0 0 CODE 0 text C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+intlevel3 0 0 CODE 0 text C:\Users\cdex1\AppData\Local\Temp\s9es.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__pdataCOMRAM 46 0 COMRAM 1 dataCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of___wmul 2402 0 CODE 0 text13 dist/default/production\virtual_2_2017.11.12.X.production.obj
+start_initialization 21E8 0 CODE 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv@quotient 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lldiv@quotient 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv@quotient 18 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwdiv@quotient 28 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_led_dec 2178 0 CODE 0 text9 dist/default/production\virtual_2_2017.11.12.X.production.obj
+__size_of_motor2 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+__initialization 21E8 0 CODE 0 cinit dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_adc_get 22A0 0 CODE 0 text16 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___almod@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__end_of_motor2 22F4 0 CODE 0 text1 dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwmod@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___almod@counter 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+___wmul@product 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lwmod@counter 16 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+Delay1KTCYx@unit 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\virtual_2_2017.11.12.X.production.obj
+___aldiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___lldiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+___awdiv@dividend 12 0 COMRAM 1 cstackCOMRAM dist/default/production\virtual_2_2017.11.12.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 4 1
+intcode 0 8 8 247A 1
+config 0 300000 300000 E 1
+idloc 0 200000 200000 8 1
+cstackCOMRAM 1 1 1 4B 1
+cstackBANK0 1 60 60 36 1

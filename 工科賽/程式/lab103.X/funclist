@@ -1,0 +1,16 @@
+_main: CODE, 184 0 758
+_hist: CODE, 8 0 2280
+_list: CODE, 24 0 156
+_led_scan: CODE, 1474 0 252
+__initialization: CODE, 2288 0 86
+___lwdiv: CODE, 2060 0 120
+___lldiv: CODE, 1726 0 212
+_Delay10KTCYx: CODE, 2606 0 28
+_delayms: CODE, 2654 0 14
+_pwm1: CODE, 2634 0 20
+___lwmod: CODE, 2384 0 96
+_HZ: CODE, 942 0 532
+___wmul: CODE, 2552 0 54
+_led_dec: CODE, 1938 0 122
+_adc_get: CODE, 2480 0 72
+Total: 4802

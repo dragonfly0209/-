@@ -1,0 +1,23 @@
+___awdiv: CODE, 8032 0 164
+_led_dot: CODE, 9330 0 10
+___aldiv: CODE, 7328 0 252
+_hisr: CODE, 8 0 8446
+_Delay1KTCYx: CODE, 9298 0 16
+_fn111: CODE, 6816 0 512
+_main: CODE, 28 0 6788
+___almod: CODE, 7812 0 220
+_led_scan: CODE, 7580 0 232
+__initialization: CODE, 8680 0 88
+___lwdiv: CODE, 9032 0 82
+___lldiv: CODE, 8196 0 130
+_motor1: CODE, 8568 0 112
+_Delay100TCYx: CODE, 9314 0 16
+_leddec: CODE, 9218 0 34
+___lwmod: CODE, 9114 0 66
+_motor: CODE, 8948 0 84
+_delay_ms: CODE, 9252 0 30
+___wmul: CODE, 9180 0 38
+_led_dec: CODE, 8454 0 114
+_adc_get: CODE, 8778 0 86
+_motor2: CODE, 8864 0 84
+Total: 17604

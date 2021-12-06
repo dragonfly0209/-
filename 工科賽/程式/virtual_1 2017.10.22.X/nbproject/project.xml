@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>virtual_1 2017.10.22</name>
+            <creation-uuid>95ed7c10-d5f7-4fbe-90a3-5ab4f9bfae46</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions/>
+            <asminc-extensions/>
+            <sourceEncoding>x-windows-950</sourceEncoding>
+            <make-dep-projects/>
+        </data>
+    </configuration>
+</project>

@@ -1,0 +1,15 @@
+_led_dot: CODE, 2294 0 8
+_ledon: CODE, 2142 0 44
+_hisr: CODE, 8 0 1706
+_main: CODE, 28 0 1324
+_led_scan: CODE, 1352 0 236
+__initialization: CODE, 2088 0 44
+___lwdiv: CODE, 1812 0 82
+_pwm0: CODE, 2028 0 60
+___lwmod: CODE, 1962 0 66
+_ledoff: CODE, 2186 0 44
+___wmul: CODE, 2230 0 38
+_led_dec: CODE, 1714 0 98
+_adc_get: CODE, 1894 0 68
+_pwm0off: CODE, 2284 0 10
+Total: 3828
